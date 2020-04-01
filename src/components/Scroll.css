@@ -1,0 +1,30 @@
+#scroll {
+    overflow-y: scroll;
+    border-top: 2px solid rgb(15, 231, 231);
+    border-radius: 15px;
+    height: 500px;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0 50px; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2b1c4e;
+  border-top: 2px solid rgb(132, 132, 197);
+  border-right: 2px solid rgb(132, 132, 197);
+  border-bottom: 2px solid rgb(132, 132, 197);
+  border-left: 1px solid rgb(15, 231, 231);   
+  border-radius: 0 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(15, 231, 231); 
+}
